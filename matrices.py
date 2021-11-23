@@ -13,4 +13,6 @@ def create_matrix(num_rows, num_columns, value):
         #adds a row to the matrix
         matrix.append(rows)
     
-    return matrix
+    #changes the format of the function's output
+    while len(matrix) > 0:
+        print(matrix.pop(0))
