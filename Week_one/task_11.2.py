@@ -19,6 +19,6 @@ def imprima_matriz(matriz):
 
 
 # testes
-a = [[1,2,3],[2,1,4],[3,7,5]]
+a = [[1,2,3],[2,1,4],[3,7,5],[3,7,5]]
 print("Matriz:",len(a[0]),"x",len(a))
 imprima_matriz(a)
