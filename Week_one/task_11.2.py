@@ -1,4 +1,4 @@
-def imprima_matriz(matriz):
+def imprime_matriz(minha_matriz):
     '''(matriz) -> None
 
     Recebe e imprime uma matriz de inteiros.
@@ -12,13 +12,13 @@ def imprima_matriz(matriz):
          2     1     4
          3     4     1
     '''
-    for n in matriz:
+    for n in minha_matriz:
         for m in n:
             print(m, end=" ")
         print()
 
 
 # testes
-a = [[1,2,3],[2,1,4],[3,7,5],[3,7,5]]
-print("Matriz:",len(a[0]),"x",len(a))
-imprima_matriz(a)
+#a = [[1,2,3],[2,1,4],[3,7,5],[3,7,5]]
+#print("Matriz:",len(a[0]),"x",len(a))
+#imprima_matriz(a)
