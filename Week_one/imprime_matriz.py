@@ -4,6 +4,6 @@ def imprime_matriz(minha_matriz):
             if m == (n[-1]):
                 print(m,end="")
             else:
-                print(m,end="-")
+                print(m,end=" ")
         print()
    
