@@ -1,5 +1,5 @@
 def soma_matrizes(m1, m2):
-    #verifica dimenoes
+    #verifica dimensoes
     if dimensoes(m1) != dimensoes(m2):
         return m1 == m2
     #cria matriz que será o resultado da soma
