@@ -1,4 +1,4 @@
-def mais_curto(lista):
+def menor_nome(lista):
     #Função recebe uma lista de strings.
     #Retorna a palavra com a menor quantidade de caracteres.
     #Ignora espaços.
@@ -9,5 +9,6 @@ def mais_curto(lista):
         remove_espaços.append(palavras.strip())
         ordena_tamanho = []
         ordena_tamanho.extend(sorted(remove_espaços, key=len))
+        ordena_tamanho = sorted(ordena_tamanho)
 
     return (ordena_tamanho[0].capitalize())
