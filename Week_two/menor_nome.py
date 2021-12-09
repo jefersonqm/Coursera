@@ -11,4 +11,5 @@ def menor_nome(lista):
         ordena_tamanho.extend(sorted(remove_espaços, key=len))
         ordena_tamanho = sorted(ordena_tamanho)
 
+
     return (ordena_tamanho[0].capitalize())
