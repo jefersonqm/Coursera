@@ -1,15 +1,15 @@
 def menor_nome(lista):
-    #Função recebe uma lista de strings.
-    #Retorna a palavra com a menor quantidade de caracteres.
-    #Ignora espaços.
-    #Retorna a string capitalizada
 
-    remove_espaços = []
-    for palavras in lista:
-        remove_espaços.append(palavras.strip())
-        ordena_tamanho = []
-        ordena_tamanho.extend(sorted(remove_espaços, key=len))
-        ordena_tamanho = sorted(ordena_tamanho)
+    lista2 = []
+ 
+    for palavra in lista:
+        lista2.append(palavra.lower().strip())
 
+    lista3 = []
+    lista3 = sorted(lista2)
 
-    return (ordena_tamanho[0].capitalize())
+    if len(lista3[0]) <= len(lista3[1]):
+        return lista3[0]
+    else:
+        return lista3[1]
+
