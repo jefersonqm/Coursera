@@ -37,6 +37,7 @@ def cria_matriz(linha, coluna, valor):
 
     return M3
 
-
-
-
+if __name__ == "__main__":
+    A = [[1,2,3],[4,5,6],[7,8,9]]
+    B = [[10,20,30],[40,50,60],[70,80,90]]
+    print(soma_matrizes(A, B))
