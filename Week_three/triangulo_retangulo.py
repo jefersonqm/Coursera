@@ -22,9 +22,10 @@ class Triangulo:
 
         return quadrado_catetos == quadrado_hipotenusa
 
-    def semelhante(triangulo):
-        triangulo = Triangulo()
+    def semelhantes(self, triangulo):
         
-        return
-
+        if (self.a / triangulo.a == self.b / triangulo.b) and (self.a / triangulo.a == self.c / triangulo.c):
+            return True
+        else:
+            return False         
 
