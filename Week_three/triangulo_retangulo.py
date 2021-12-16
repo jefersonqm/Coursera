@@ -22,7 +22,8 @@ class Triangulo:
 
         return quadrado_catetos == quadrado_hipotenusa
 
-    def semelhante(self, triangulo):
+    def semelhante(triangulo):
+        triangulo = Triangulo()
         
         return
 
