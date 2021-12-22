@@ -48,6 +48,7 @@ class TestBhaskara:
     def teste_calcula_raizes(entrada, esperado):
         assert calcula_raizes(entrada) == esperado
 #    '''
+<<<<<<< HEAD:Week_three/teste_bhaskara.py
                         
 
 
@@ -63,3 +64,7 @@ class TestBhaskara:
 
         
         
+=======
+
+
+>>>>>>> 01012211f281246f0b4468d3d532bfdb38574893:Week_3/teste_bhaskara.py
