@@ -1,3 +1,4 @@
+#import random
 def insertion_sort(lista):
 
     i = 1
@@ -22,3 +23,8 @@ def insertion_sort(lista):
         i += 1
 
     return nova_lista
+
+#if __name__ == "__main__":
+#    lista = [random.randrange(1,15) for x in range(15)]
+#    print(lista)
+#    print(insertion_sort(lista))
