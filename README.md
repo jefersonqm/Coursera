@@ -1,3 +1,3 @@
-# Coursera
+# Curso
 
-Curso de Introdução à Ciência da Computalção com Python parte 2.
+Curso de Introdução à Ciência da Computalção com Python.
